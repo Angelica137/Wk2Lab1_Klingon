@@ -35,8 +35,16 @@ public class KlingonShip {
 	public void promptSettings() {
 		// prompt for PhotonPower, threatFactor, cosmicProximity
 		Scanner sc = new Scanner(System.in);
+
 		System.out.println("Enter photon power: ");
 		photonPower = sc.nextDouble();
+
+		System.out.println("Enter threat factor: ");
+		threatFactor = sc.nextInt();
+
+		System.out.println("Enter cosmic proximity: ");
+		cosmicProximity = sc.nextDouble();
+
 	}
 
 }
