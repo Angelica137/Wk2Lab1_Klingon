@@ -5,6 +5,10 @@
  * @author Angelica Beristain
  * @version 17 March 2021
  */
+
+// Import the Scanner class
+import java.util.*;
+
 public class KlingonShip {
 	double photonPower = 45;
 	int threatFactor = 7;
@@ -26,6 +30,13 @@ public class KlingonShip {
 		dangerLevel = (photonPower * threatFactor) / cosmicProximity;
 		return dangerLevel;
 
+	}
+
+	public void promptSettings() {
+		// promot for PhotonPower, threatFactor, cosmicProximity
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter photon power: ");
+		photonPower = sc.nextDouble();
 	}
 
 }

@@ -7,6 +7,7 @@ public class TestKlingonShip {
 		KlingonShip k = new KlingonShip();
 		k.displayKlingonDetails();
 		k.getDangerLevel();
+		k.promptSettings();
 	}
 
 }
