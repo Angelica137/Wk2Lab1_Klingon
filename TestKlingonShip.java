@@ -6,6 +6,7 @@ public class TestKlingonShip {
 		// Create LingonShip object, then test the methods
 		KlingonShip k = new KlingonShip();
 		k.displayKlingonDetails();
+		k.getDangerLevel();
 	}
 
 }
