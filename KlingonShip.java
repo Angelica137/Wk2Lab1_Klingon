@@ -11,5 +11,12 @@ public class KlingonShip {
 	double cosmicProximity = 20.6;
 
 	// Put the displayKlingonDetails()and getDangerLeve() methods below.
+	public void displayKlingonDetails() {
+		// displays class attributes
+		System.out.println(photonPower);
+		System.out.println(threatFactor);
+		System.out.println(cosmicProximity);
+
+	}
 
 }
